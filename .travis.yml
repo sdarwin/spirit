@@ -118,6 +118,8 @@ before_install:
         -Wno-deprecated-copy      # Proto, Phoenix
       : unchecked ;
 
+    EOF
+
   - |
     # Determining the root branch
     if [[ "$TRAVIS_PULL_REQUEST" == "false" ]]; then
